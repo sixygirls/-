@@ -79,9 +79,6 @@
             const xhttp = new XHLHttpReqest();
             xhttp.open("GET", "save_location.php?lat=" + position.coords.latitude + "&long=" + position.coords.longitude);
             xhttp.send();
-
-          x.innerHTML = "Latitude: " + position.coords.latitude +
-          "<br>Longitude: " + position.coords.longitude;
         }
         </script>
 </body>
